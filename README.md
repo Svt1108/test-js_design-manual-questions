@@ -17,3 +17,9 @@ Techologies used for the app:
 2. HTML/SCSS
 3. Materialize framework
 4. Webpack
+5. Javascript-obfuscator
+
+Features:
+1. Questions and answers are a little bit encrypted with javascript-obfuscator to prevent reading code in devtools or in another way.
+2. It's forbidden to return from page "result" to page "questions"
+3. To close web page with app user must confirm that he wants to leave the page
