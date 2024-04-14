@@ -1,3 +1,5 @@
+App link: https://svt1108.github.io/test-js_design-manual-questions/dist/
+
 The program was written for programmer's testing. To not share the questions and the answers I changed its for "designer theme", so the questions is only an example.
 
 Login is "user-test", password is "user-test" as well.
