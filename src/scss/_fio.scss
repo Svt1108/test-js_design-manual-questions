@@ -1,0 +1,25 @@
+.fio-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  background-image: url("../assets/images/green-3.jpg");
+  background-size: cover;
+}
+
+.btn-result {
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
+}
+
+.text-result {
+  position: absolute;
+  top: 5rem;
+  right: 2rem;
+  font-size: 0.8rem;
+  width: 20rem;
+  text-align: right;
+}
