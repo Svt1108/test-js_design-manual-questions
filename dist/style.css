@@ -9429,7 +9429,7 @@ body {
   justify-content: center;
   height: 100vh;
   width: 100vw;
-  background-image: url(assets/images/Frame_67.jpg);
+  background-image: url(assets/images/Frame_67_dark.jpg);
   background-position: center;
   background-size: cover;
 }
@@ -9465,7 +9465,7 @@ body {
   justify-content: center;
   height: 100vh;
   width: 100vw;
-  background-image: url(assets/images/Frame_65.jpg);
+  background-image: url(assets/images/Frame_65_dark.jpg);
   background-size: cover;
   background-position: center;
 }
@@ -9489,7 +9489,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-image: url(assets/images/Frame_62.jpg);
+  background-image: url(assets/images/Frame_62_dark.jpg);
   background-size: cover;
   background-repeat: repeat;
   position: relative;
@@ -9564,8 +9564,9 @@ body {
   align-items: center;
   height: 100vh;
   width: 100vw;
-  background-image: url(assets/images/Frame_61.jpg);
+  background-image: url(assets/images/Frame_66_dark.jpg);
   background-size: cover;
+  background-position: center;
 }
 
 .result-background {
@@ -9667,7 +9668,7 @@ body {
   flex-direction: column;
   min-height: 100vh;
   padding-bottom: 2rem;
-  background-image: url(assets/images/Frame_64.jpg);
+  background-image: url(assets/images/Frame_64_dark.jpg);
   background-position: center;
   background-size: cover;
 }
