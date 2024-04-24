@@ -10,6 +10,6 @@ export enum Route {
 }
 
 export enum LoginPass {
-  login = "user-test",
-  password = "user-test",
+  login = "user",
+  password = "userCheck",
 }
