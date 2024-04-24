@@ -22,7 +22,7 @@ export class FioView {
   public render() {
     this.mainDiv.innerHTML = `<div class="fio-wrapper">
       <button class="btn orange darken-3 btn-result" id="btn_result">Previous result</button>
-      <p class="orange-text text-darken-4 text-result">(available for a test previously launched on this computer in this browser, until a new test is launched, that is, before the START button is clicked)</p>
+      <p class="orange-text text-darken-1 text-result">(available for a test previously launched on this computer in this browser, until a new test is launched, that is, before the START button is clicked)</p>
       <h5 class="header light h4-lang center-align">Information to start</h5>
       <div class="section no-pad-bot">
         <div class="container form-background z-depth-5 center-align ">
@@ -35,19 +35,19 @@ export class FioView {
           <div class="row">
             <div class="input-field col s12" id="fio-field">
               <input id="fio" type="text" class="validate" name="fio" required>
-              <label for="fio" class="blue-text text-darken-3">Full name</label>
+              <label for="fio" class="blue-text text-darken-1">Full name</label>
             </div>
           </div>
           <div class="row">
           <div class="input-field col s12" id="category-field">
           <select id="category" name="category"></select>
-          <label for="category" class="blue-text text-darken-3">Category</label>
+          <label for="category" class="blue-text text-darken-1">Category</label>
         </div>
           </div>  
           <div class="row">
             <div class="input-field col s12" id="info-field">
               <input id="info" type="text" class="validate" name="info" maxlength="50">
-              <label for="info" class="blue-text text-darken-3">Additional information (50 letters max)</label>
+              <label for="info" class="blue-text text-darken-1">Additional information (50 letters max)</label>
             </div>
           </div>
           <button class="btn" type="submit" name="action">Next

@@ -13,8 +13,7 @@ export class LoginView {
 
   public render() {
     this.mainDiv.innerHTML = `<div class="login-wrapper">
-    <h3 class="header light h3-lang center-align">${PROGRAM_NAME}</h3>
-    <!--- <h6 class="header light h6-login center-align">Проверка знаний по программированию</h6>   --->  
+    <h3 class="header light h3-lang center-align">${PROGRAM_NAME}</h3>  
     <div class="section no-pad-bot">
       <div class="container form-background z-depth-5 center-align ">
 
@@ -26,12 +25,12 @@ export class LoginView {
         <div class="row">
           <div class="input-field col s12" id="login-field">
             <input id="login" type="text" class="validate" name="login" required>
-            <label for="login" class="blue-text text-darken-3" id="label-login">User name</label>
+            <label for="login" class="blue-text text-darken-1" id="label-login">User name</label>
           </div>
         <div class="row">
           <div class="input-field col s12" id="password-field">
             <input id="password" type="password" class="validate" name="password" required>
-            <label for="password" class="blue-text text-darken-3">Password</label>
+            <label for="password" class="blue-text text-darken-1">Password</label>
           </div>
         </div>
         <button class="btn" type="submit" name="action">Enter

@@ -5,15 +5,18 @@
   justify-content: center;
   height: 100vh;
   width: 100vw;
-  background-image: url("../assets/images/windows-24.jpg");
+  background-image: url("../assets/images/Frame_67.jpg");
+  background-position: center;
   background-size: cover;
 }
 
 .form-background {
   min-width: 30rem;
   padding: 1rem;
-  background-color: rgba(255, 255, 255, 0.6);
-  border: 1px solid rgba(0, 0, 0, 0.2);
+  background-color: rgba(0, 0, 0, 0.6);
+  // background-color: rgba(255, 255, 255, 0.2);
+  // border: 1px solid rgba(0, 0, 0, 0.2);
+  border: 1px solid rgba(249, 213, 135, 0.6);
   backdrop-filter: blur(3px);
   border-radius: 20px;
 }
@@ -22,14 +25,15 @@
 .h4-lang,
 .h6-login {
   padding: 1rem;
-  color: white;
+  color: rgb(249, 213, 135);
   font-weight: 500;
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: rgba(0, 0, 0, 0.4);
   border-radius: 5px;
 }
 
 .h5-lang {
   font-weight: 400;
+  color: rgb(249, 213, 135);
 }
 
 // .h6-login {
