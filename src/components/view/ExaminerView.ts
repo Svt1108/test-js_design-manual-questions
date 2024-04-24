@@ -144,5 +144,31 @@ export class ExaminerWindow {
       JSON.parse(localStorage.getItem("resultResult") as string)
         .maxResultNonAuto
     } possible`;
+
+    const fullResult =
+      Number(
+        JSON.parse(localStorage.getItem("resultResult") as string).result
+      ) +
+      Number(
+        localStorage.getItem("resultGrade")
+          ? localStorage.getItem("resultGrade")
+          : "0"
+      );
+
+    const fullMaxResult =
+      Number(
+        JSON.parse(localStorage.getItem("resultResult") as string)
+          .maxResultNonAuto
+      ) +
+      Number(
+        JSON.parse(localStorage.getItem("resultResult") as string).maxResult
+      );
+
+    const fullGrade = document.getElementById(
+      "full-grade"
+    ) as HTMLParagraphElement;
+    fullGrade.innerHTML = `Full score: <span class="underline">${fullResult} points out of ${fullMaxResult} possible (${Math.round(
+      (fullResult / fullMaxResult) * 100
+    )}%)</span>`;
   }
 }

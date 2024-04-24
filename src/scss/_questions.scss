@@ -11,10 +11,16 @@
 .form-questions-background {
   margin: 2rem 0;
   min-width: 85%;
-  background-color: rgba(255, 255, 255, 0.9);
+  // background-color: rgba(255, 255, 255, 0.9);
+  background-color: rgba(0, 0, 0, 0.6);
   border: 1px solid rgba(249, 213, 135, 0.6);
   backdrop-filter: blur(3px);
   border-radius: 20px;
+  // color: #eeeeee;
+  // color: rgb(255, 236, 179); //gold
+  // color: #e3f2fd;   //blue
+  color: #e0f2f1; // teal
+  // color: #b2dfdb; //dark-teal
 }
 
 .form-questions {
@@ -26,7 +32,9 @@
 
 .h6-lang {
   font-weight: 500;
-  color: black;
+  // color: #80cbc4;
+  color: rgb(249, 213, 135);
+  // color: black;
   line-height: 140%;
   padding: 0 1rem 1rem 1rem;
 }

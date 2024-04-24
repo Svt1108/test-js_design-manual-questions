@@ -24,13 +24,13 @@ export class LoginView {
         <form id="formLogin">
         <div class="row">
           <div class="input-field col s12" id="login-field">
-            <input id="login" type="text" class="validate" name="login" required>
-            <label for="login" class="blue-text text-darken-1" id="label-login">User name</label>
+            <input id="login" type="text" class="validate teal-text text-lighten-3" name="login" required>
+            <label for="login" class="grey-text text" id="label-login">User name</label>
           </div>
         <div class="row">
           <div class="input-field col s12" id="password-field">
-            <input id="password" type="password" class="validate" name="password" required>
-            <label for="password" class="blue-text text-darken-1">Password</label>
+            <input id="password" type="password" class="validate teal-text text-lighten-3" name="password" required>
+            <label for="password" class="grey-text text">Password</label>
           </div>
         </div>
         <button class="btn" type="submit" name="action">Enter

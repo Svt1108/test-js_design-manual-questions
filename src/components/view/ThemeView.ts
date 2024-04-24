@@ -25,7 +25,7 @@ export class ThemeView {
 
         <h6 class="header light h6-lang center-align">You can change default themes and questions manually. To do this choose number of questions for each theme:</h6>
         <form id="formTheme">
-        <button class="btn orange darken-3" id="btn_clear" type="button">Clear all
+        <button class="btn pink darken-3" id="btn_clear" type="button">Clear all
         </button> 
         <button class="btn theme-btn" type="submit">Start
         <i class="material-icons right">send</i>

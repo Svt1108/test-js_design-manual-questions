@@ -1,13 +1,7 @@
-import { IMG_PATH, PROGRAM_NAME } from "../../data/const";
+import { PROGRAM_NAME } from "../../data/const";
 import { questions, categories } from "../../data/data-q";
 import { saveResult, createElementMy } from "../../helpers/helpers";
-import {
-  AnswerForView,
-  Balls,
-  Data,
-  FlagFinish,
-  Grade,
-} from "../../types/types";
+import { AnswerForView, Data, FlagFinish, Grade } from "../../types/types";
 import { ExaminerWindow } from "./ExaminerView";
 import { ModalWindow } from "./ModalView";
 
@@ -60,6 +54,7 @@ export class ResultView {
          <p class="result-fio">Full name: <span class="underline">${fio}</span> <br> Category: <span class="underline">${categoryName}</span> <br> Additional information: <span class="underline">${info}</span> <br> Date: <span class="underline">${dateFormat}</span></p>
          <p class="result-res">Part with automatic evaluation: <span class="underline">${res.result} points out of ${res.maxResult} possible (${res.rightAnswersQuantity} right answers)</span></p>
          <p class="result-res" id="exam-grade"></p>
+         <p class="result-res" id="full-grade"></p>
         <div id="invisible-wrapper"></div>
         </div>
         </div>
@@ -68,8 +63,8 @@ export class ResultView {
         <a class="btn deep-purple darken-1 modal-trigger" href="#modal_examiner" id="btn_examiner">For examiner</a>
         <div id="modal_examiner" class="modal"></div>
         <div class="exit">
-        <button class="btn orange darken-3" id="btn_new">New test</button>
-        <p class="orange-text text-darken-1" id="authorization-text">(you have to login again)</p>
+        <button class="btn pink darken-3" id="btn_new">New test</button>
+        <p class="pink-text text-lighten-4" id="authorization-text">(you have to login again)</p>
         </div>
       </div>`;
 
@@ -81,6 +76,23 @@ export class ResultView {
         ? localStorage.getItem("resultGrade")
         : "____"
     } points out of ${res.maxResultNonAuto} possible</span>`;
+
+    const fullResult =
+      Number(res.result) +
+      Number(
+        localStorage.getItem("resultGrade")
+          ? localStorage.getItem("resultGrade")
+          : "0"
+      );
+
+    const fullMaxResult = res.maxResultNonAuto + res.maxResult;
+
+    const fullGrade = document.getElementById(
+      "full-grade"
+    ) as HTMLParagraphElement;
+    fullGrade.innerHTML = `Full score: <span class="underline">${fullResult} points out of ${fullMaxResult} possible (${Math.round(
+      (fullResult / fullMaxResult) * 100
+    )}%)</span>`;
 
     const modalExaminer = document.getElementById(
       "modal_examiner"

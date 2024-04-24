@@ -79,7 +79,7 @@ export class QuestionsView {
         const icon = createElementMy("i", "material-icons prefix", "mode_edit");
         const answer1 = createElementMy(
           "textarea",
-          "materialize-textarea",
+          "materialize-textarea teal-text text-lighten-4",
           "",
           `id${i}`
         ) as HTMLTextAreaElement;
@@ -107,7 +107,7 @@ export class QuestionsView {
           const label1 = createElementMy("label") as HTMLLabelElement;
           const span1 = createElementMy(
             "span",
-            "option-name blue-text text-darken-4",
+            "option-name teal-text text-lighten-4",
             el.option
           );
           /******* если вариант ответа представлен скриншотом ***** */
