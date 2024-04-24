@@ -9426,15 +9426,16 @@ body {
   justify-content: center;
   height: 100vh;
   width: 100vw;
-  background-image: url(assets/images/windows-24.jpg);
+  background-image: url(assets/images/Frame_67.jpg);
+  background-position: center;
   background-size: cover;
 }
 
 .form-background {
   min-width: 30rem;
   padding: 1rem;
-  background-color: rgba(255, 255, 255, 0.6);
-  border: 1px solid rgba(0, 0, 0, 0.2);
+  background-color: rgba(0, 0, 0, 0.6);
+  border: 1px solid rgba(249, 213, 135, 0.6);
   backdrop-filter: blur(3px);
   border-radius: 20px;
 }
@@ -9443,14 +9444,15 @@ body {
 .h4-lang,
 .h6-login {
   padding: 1rem;
-  color: white;
+  color: rgb(249, 213, 135);
   font-weight: 500;
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: rgba(0, 0, 0, 0.4);
   border-radius: 5px;
 }
 
 .h5-lang {
   font-weight: 400;
+  color: rgb(249, 213, 135);
 }
 
 .fio-wrapper {
@@ -9460,8 +9462,9 @@ body {
   justify-content: center;
   height: 100vh;
   width: 100vw;
-  background-image: url(assets/images/green-3.jpg);
+  background-image: url(assets/images/Frame_65.jpg);
   background-size: cover;
+  background-position: center;
 }
 
 .btn-result {
@@ -9483,8 +9486,8 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-image: url(assets/images/leather-texture.jpg);
-  background-size: 20%;
+  background-image: url(assets/images/Frame_62.jpg);
+  background-size: cover;
   background-repeat: repeat;
   position: relative;
 }
@@ -9492,10 +9495,11 @@ body {
 .form-questions-background {
   margin: 2rem 0;
   min-width: 85%;
-  background-color: rgba(255, 255, 255, 0.9);
-  border: 1px solid rgba(0, 0, 0, 0.2);
+  background-color: rgba(0, 0, 0, 0.6);
+  border: 1px solid rgba(249, 213, 135, 0.6);
   backdrop-filter: blur(3px);
   border-radius: 20px;
+  color: #e0f2f1;
 }
 
 .form-questions {
@@ -9507,7 +9511,7 @@ body {
 
 .h6-lang {
   font-weight: 500;
-  color: black;
+  color: rgb(249, 213, 135);
   line-height: 140%;
   padding: 0 1rem 1rem 1rem;
 }
@@ -9557,18 +9561,19 @@ body {
   align-items: center;
   height: 100vh;
   width: 100vw;
-  background-image: url(assets/images/white.jpg);
+  background-image: url(assets/images/Frame_61.jpg);
   background-size: cover;
 }
 
 .result-background {
   margin: 2rem 0;
   padding: 2rem;
-  background-color: rgba(255, 255, 255, 0.9);
-  border: 1px solid rgba(0, 0, 0, 0.2);
+  background-color: rgba(0, 0, 0, 0.6);
+  border: 1px solid rgba(249, 213, 135, 0.6);
   backdrop-filter: blur(3px);
   border-radius: 20px;
   width: 90%;
+  color: rgb(249, 213, 135);
 }
 
 .result-fio {
@@ -9592,7 +9597,6 @@ body {
   padding: 1rem 0.5rem;
   font-size: 0.9rem;
   gap: 0.5rem;
-  background-color: rgba(255, 255, 255, 0.9);
   border-radius: 5px;
 }
 
@@ -9656,10 +9660,13 @@ body {
 }
 
 .theme-wrapper {
-  padding-bottom: 2rem;
-  background-image: url(assets/images/white-sand-2.jpg);
-  background-size: contain;
-  background-repeat: repeat;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+  background-image: url(assets/images/Frame_64.jpg);
+  background-position: center;
+  background-size: cover;
 }
 
 .theme-wrap {
@@ -9667,7 +9674,7 @@ body {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  border: 1px solid #80cbc4;
+  border: 1px solid rgba(128, 203, 196, 0.5);
   padding: 0 1rem;
 }
 
@@ -9678,10 +9685,11 @@ body {
 .form-theme-background {
   min-width: 30rem;
   padding: 1rem;
-  background-color: rgba(255, 255, 255, 0.8);
-  border: 1px solid rgba(0, 0, 0, 0.2);
+  background-color: rgba(0, 0, 0, 0.6);
+  border: 1px solid rgb(249, 213, 135);
   backdrop-filter: blur(3px);
   border-radius: 20px;
+  color: #b2dfdb;
 }
 
 .theme-btn {
