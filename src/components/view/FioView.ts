@@ -21,7 +21,7 @@ export class FioView {
 
   public render() {
     this.mainDiv.innerHTML = `<div class="fio-wrapper">
-      <button class="btn pink darken-3 btn-result" id="btn_result">Previous result</button>
+      <button class="btn pink darken-4 btn-result" id="btn_result">Previous result</button>
       <p class="pink-text text-lighten-4 text-result">(available for a test previously launched on this computer in this browser, until a new test is launched, that is, before the START button is clicked)</p>
       <h5 class="header light h4-lang center-align">Information to start</h5>
       <div class="section no-pad-bot">

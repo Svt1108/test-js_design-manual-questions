@@ -63,7 +63,7 @@ export class ResultView {
         <a class="btn deep-purple darken-1 modal-trigger" href="#modal_examiner" id="btn_examiner">For examiner</a>
         <div id="modal_examiner" class="modal"></div>
         <div class="exit">
-        <button class="btn pink darken-3" id="btn_new">New test</button>
+        <button class="btn pink darken-4" id="btn_new">New test</button>
         <p class="pink-text text-lighten-4" id="authorization-text">(you have to login again)</p>
         </div>
       </div>`;

@@ -36,7 +36,7 @@ export class QuestionsView {
     const timer = createElementMy(
       "div",
       "timer z-depth-2 indigo-text text-darken-4",
-      "Старт!",
+      "Start!",
       "timer"
     );
     questionsWrapper.appendChild(timer);
