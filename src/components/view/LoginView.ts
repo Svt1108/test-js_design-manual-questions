@@ -33,7 +33,7 @@ export class LoginView {
             <label for="password" class="grey-text text">Password</label>
           </div>
         </div>
-        <button class="btn" type="submit" name="action">Enter
+        <button class="btn teal darken-1" type="submit" name="action">Enter
         <i class="material-icons right">send</i>
       </button>
       </form>

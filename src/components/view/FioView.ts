@@ -50,7 +50,7 @@ export class FioView {
               <label for="info" class="grey-text text">Additional information (50 letters max)</label>
             </div>
           </div>
-          <button class="btn" type="submit" name="action">Next
+          <button class="btn teal darken-1" type="submit" name="action">Next
           <i class="material-icons right">send</i>
         </button>
         </form>

@@ -109,7 +109,7 @@ export class ExaminerWindow {
     });
     const btnEnd = createElementMy(
       "button",
-      "btn btn-questions center-align modal-close",
+      "btn btn-questions center-align modal-close teal darken-1",
       "Finish"
     ) as HTMLButtonElement;
     this.formForCheck.appendChild(btnEnd);

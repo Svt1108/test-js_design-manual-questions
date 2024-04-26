@@ -58,8 +58,8 @@ export class ResultView {
         <div id="invisible-wrapper"></div>
         </div>
         </div>
-        <button class="btn" id="btn_save">Save</button><br>
-        <button class="btn" id="btn_save_add">Save extra</button><br>
+        <button class="btn teal darken-1" id="btn_save">Save</button><br>
+        <button class="btn teal darken-1" id="btn_save_add">Save extra</button><br>
         <a class="btn deep-purple darken-1 modal-trigger" href="#modal_examiner" id="btn_examiner">For examiner</a>
         <div id="modal_examiner" class="modal"></div>
         <div class="exit">

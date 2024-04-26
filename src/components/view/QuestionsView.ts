@@ -124,7 +124,7 @@ export class QuestionsView {
 
     const btnEnd = createElementMy(
       "button",
-      "btn btn-questions center-align modal-trigger",
+      "btn btn-questions center-align modal-trigger teal darken-1",
       "Finish"
     ) as HTMLButtonElement;
     btnEnd.setAttribute("data-target", "modal_wrapper");

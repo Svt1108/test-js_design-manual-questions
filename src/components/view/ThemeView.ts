@@ -27,11 +27,11 @@ export class ThemeView {
         <form id="formTheme">
         <button class="btn pink darken-4" id="btn_clear" type="button">Clear all
         </button> 
-        <button class="btn theme-btn" type="submit">Start
+        <button class="btn theme-btn teal darken-1" type="submit">Start
         <i class="material-icons right">send</i>
         </button> 
         <div class="all-themes-wrap" id="all_themes_wrap"></div>
-        <button class="btn theme-btn" type="submit">Start
+        <button class="btn theme-btn teal darken-1" type="submit">Start
           <i class="material-icons right">send</i>
         </button>
         </form>
